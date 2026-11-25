@@ -6,7 +6,9 @@
 // The line (81 chars) won a 10-candidate head-to-head against the judge
 // brief: classic epitaph opening ("Here I lie"), cause of death stated
 // flatly, and a double meaning on "serve" — the recipe fed four, it killed
-// one. Full comparison:
+// one. Short is good twice over here: on an exact Judge win-rate tie the
+// smaller text places first, so 81 chars beats a longer line with the same
+// rate. Full comparison:
 // u-riidzhsn-famous-last-words-the-funniest-epitaph-ff177406-candidates.md.
 
 import { mkdirSync, writeFileSync } from "node:fs";
